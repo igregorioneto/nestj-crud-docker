@@ -1,4 +1,4 @@
-FROM nestjs/cli:8.0.0
+FROM nestjs/cli
 WORKDIR /app
 COPY ./package*.json ./
 RUN npm install
